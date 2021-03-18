@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Hacker Resources</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   
-<link rel="icon" href="logo.png" type="image/png" sizes="16x16">
-<link rel="stylesheet" href = "styles.css">
-<link  rel="stylesheet" href = "fullpage.css">
-<script src = "jq.js"></script>
-<script src = "main.js"></script>
+    <!-- Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description"
+			content="PickHacks is a 36 hour opportunity for you to build your dreams."/>
+		<meta name="keywords" content="PickHacks, hackathon, Missouri S&T, S&T, Rolla, MLH"/>
+		<meta name="author" content="PickHacks"/>
+		<meta name="theme-color" content="#22292c">
+		<meta name="copyright" content="PickHacks"/>
+    <meta name="application-name" content="PickHacks | April 3rd - 5th | Rolla, MO"/>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://use.typekit.net/hio1tei.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/767c701207.js" crossorigin="anonymous" SameSite="secure"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fullpage.js Styles-->
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+
+    <meta name="description"
+      content="PickHacks is a 36 hour opportunity for you to build your dreams."/>
+    <meta name="keywords" content="PickHacks, hackathon, Missouri S&T, S&T, Rolla, MLH"/>
+    <meta name="author" content="PickHacks"/>
+    <meta name="theme-color" content="#22292c">
+    <meta name="copyright" content="PickHacks"/>
+    <meta name="application-name" content="PickHacks | April 3rd - 5th | Rolla, MO"/>
+    <title>
+      PickHacks 2021
+    </title>
   </head>
-  <style> 
-  h1, h2{
-font-family: 'Montserrat', sans-serif;
-   color: #40ABD7;
-}
-
-body{
-  background: #171717;;
-    margin-right: 2rem; 
-
-}
-
-h1{
-  font-size: 2.5rem;
-  color: white;
-  text-align:center;
-}
-
-h2{
-  font-size: 2rem;
-  margin-left: 2rem; 
- 
-}
-
-ul{
-  font: 1.5rem 'Heebo', sans-serif;
-  list-style-type: none; 
-  color: white;
-}
-
-li{
-  margin-top: 1rem; 
-   margin-left: 2rem;
-}
-
-p{
-   margin-left: 4rem;
-   margin-top: .25rem;
-}
-
-ul a{ 
-  text-decoration: underline; 
-  color: white;
+  <body>
+    <div class="wrapper">
+      <nav class="navbar fixed-top navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler mr-auto my-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <a class="navbar-brand page-switch" href="https://pickhacks.io">
+            <img src="images/pickhacks-logo.png" alt="" height="70px" width="70px"/>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+           
+          </div>
+        </div>
+      </nav>
+    <style> 
+ .faq-question h1 {
+  font-family: titling-gothic-fb, sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 /* glitch */
@@ -68,7 +75,8 @@ ul a{
       color: white;
       font-size: 100px;
       margin: 0 auto;
-      text-align:center;
+      margin-left: 10rem;
+      font-family: "Gotham-Medium";
     }
     
     /* Real glitch effect */
@@ -84,7 +92,8 @@ ul a{
       position: absolute;
       text-shadow: -1px 0 red;
       top: 0;
-      margin-left: 9rem;
+      margin-left: 10rem;
+      font-family: "Gotham-Medium";
     }
 
     .glitch:before {
@@ -97,7 +106,8 @@ ul a{
       position: absolute;
       text-shadow: 1px 0 blue;
       top: 0;
-      margin-left: 9rem;
+      margin-left: 10rem;
+      font-family: "Gotham-Medium";
     }
 
     /* Expanded Animations */
@@ -235,33 +245,16 @@ ul a{
 }
 
 </style> 
-  <body>
+
+      <div id="mainpage">
+      
+
 
 <h1 class="glitch" data-text="HACKER RESOURCES">HACKER RESOURCES</h1>
 
 
-    <h2>General Resources</h2>
-    <ul>
-      <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ" target = "_blank"><li>FreeCodeCamp</li></a>
-      <p> youtube channel with days of coding tutorials on everything under the sun</p>
-      <a href="https://www.w3schools.com/" target = "_blank"><li>W3schools</li></a>
-       <p> website with many examples for everything under the sun, mostly web development though; great for refactoring for short term projects</p>
-      <a href="https://www.codecademy.com/learn" target = "_blank"><li>Codecadmy</li></a>
-       <p> more structured coding courses with lectures and coding challenges; a lot of good stuff behind a paywall</p>
-      <a href="https://www.replit.com/" target = "_blank"><li>Repl.it</li></a>
-       <p>online IDE that allows you to collaborate in real time with other members of a team and allows you to host websites instantly </p>
-    </ul>
-    <h2>Design</h2>
-    <ul>
-      <a href="https://www.figma.com/blog/" target = "_blank"><li>Figma</li></a>
-       <p> high resolution prototyping tool</p>
-      <a href="https://htmlcolorcodes.com/" target = "_blank"><li>HTMLColorCodes</li></a>
-       <p> tells you the HTML Color Code for literally every color under the sun</p>
-      <a href="https://fonts.google.com/" target = "_blank"><li>Google Fonts</li></a>
-       <p>font API that lets you load good fonts into web projects</p>
-      <a href="https://undraw.co/" target = "_blank"><li>Undraw</li></a>
-       <p> free graphics for websites and projects</p>
-    </ul>
+   
+   
     <h2>Web Development</h2>
     <ul>
       <a href = "https://education.launchcode.org/intro-to-professional-web-dev/" target = "_blank"><li>LaunchCode - Intro to Professional Web Development</li></a>
@@ -309,24 +302,14 @@ ul a{
     </ul>
     <h2>Mobile Development</h2>
     <ul>
-      <a href="https://developer.android.com/docs" target = "_blank"><li>Documentation - Android App Development</li></a>
-      <p>Android App Dev Documentation that is .. actually pretty easy to read and thorough</p>
-      <a href="https://guides.codepath.com/android" target = "_blank"><li>CodePath - Android App Cliff Notes</li></a>
+       <a href="https://guides.codepath.com/android" target = "_blank"><li>CodePath - Android App Cliff Notes</li></a>
       <p>just .. a lot of information on Android App Dev</p>
       <a href="https://www.hackingwithswift.com/100/swiftui" target = "_blank"><li>Hacking with Swift - 100 days of SwiftUI</li></a>
       <p>100 day challenge to get to learn lots of stuff about SwiftUI, useful for code examples this weekend</p>
       <a href="https://guides.codepath.com/ios?fbclid=IwAR32Kn62VGadtUyR_gOs9Y3rG_ngv6CLVM6fKM1WYKLNh525J4NeOPyqFsk" target = "_blank"><li>CodePath - iOS App Development</li></a>
         <p>just .. a lot of information on iOS App Dev</p>
     </ul>
-    <h2>Game Development</h2>
-     <ul>
-      <a href = "https://www.youtube.com/user/Brackeys" target = "_blank"><li>Brackey's - Game Development YouTube</li></a>
-        <p>youtube channel with tutorials on games in c#</p>
-      <a href="https://realpython.com/pygame-a-primer/" target = "_blank"><li>Real Python - Pygame</li></a>
-      <p>fast pygame tutorial</p>
-      <a href="https://www.youtube.com/watch?v=i6xMBig-pP4&list=PLzMcBGfZo4-lp3jAExUCewBfMx3UZFkh5&index=1" target = "_blank"><li>Tech with Tim - Pygame Tutorial</li></a>
-      <p>video form pygame tutorial </p>
-    </ul>
+   
     <h2>Data Science + Machine Learning</h2>
     <ul>
     <a href="https://education.launchcode.org/lchs/" target = "_blank"><li>LaunchCode - LaunchCode High School (Intro to Python) </li></a>
@@ -366,82 +349,215 @@ ul a{
 
            <div class="container-fluid section" id="faq">
           <div class="faq-info">
+            <h1 class="section-title">General Resources</h1>
             <div class="faq-questions">
               <div class="faq-question">
-                <h1>What</h1>
+                <h1>FreeCodeCamp</h1>
                 <div class="faq-short-answer">
-                  <h1>Hackathon</h1>
+                  <h1></h1>
                 </div>
               </div>
               <div class="faq-long-answer">
-                <p>PickHacks is Missouri S&T's annual hackathon — an innovation competition where students come together to bring a project to life over the course of a weekend. You come up with the idea, and we provide mentors, resources, and anything else you need. Programming experience isn't necessary; the only requirement is a willingness to learn and have fun! Plus, it's FREE!</p>
+                <p><a href = "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ" target = "_blank">FreeCodeCamp</a> is a YouTube channel with hours of tutorials on every coding topic under the sun.</p>
               </div>
 <br>       
        <div class="faq-question">
-                <h1>When</h1>
+                <h1>Codecademy</h1>
                 <div class="faq-short-answer">
-                  <h1>April, 2021</h1>
+                  <h1></h1>
                 </div>
               </div>
               <div class="faq-long-answer">
-                <p>Pickhacks is taking place the weekend of April 9th through 11th!</p>
+                <p> <a href="https://www.w3schools.com/" target = "_blank">Codecadmy</a> has more structured coding courses with lectures and coding challenges; a lot of good stuff behind a paywall</p>
               </div>
               <br>  
               <div class="faq-question">
-                <h1>Where</h1>
+                <h1>W3Schools</h1>
                 <div class="faq-short-answer">
-                  <h1>Online</h1>
+                  <h1></h1>
                 </div>
               </div>
               <div class="faq-long-answer">
-                <p>All virtual! Once you sign up, you will receive an email with information about how to get into the event. Hopin will be the main platform used, along with Discord</p>
+                <p><a href="https://www.w3schools.com/" target = "_blank">W3schools</a> is a website with many examples for everything under the sun, mostly web development though; great for refactoring for short term projects</p>
               </div>
               <br>  
               <div class="faq-question">
-                <h1>Who</h1>
+                <h1>Repl.it</h1>
                 <div class="faq-short-answer">
-                  <h1>You</h1>
+                  <h1></h1>
                 </div>
               </div>
               <div class="faq-long-answer">
-                <p>Anyone currently enrolled in an educational institution (high school and above) or 12 months out of graduation is able to attend. You don't even have to know how to code to join! Just come in with an open mind and fun ideas to expand on, and you'll be set!</p>
-                <br />
-                <p><strong>Sidenote: For those who would feel more comfortable knowing how a hackathon flows, we will be offering a prehack event on Saturday, April 3rd from 2-4pm, covering everything there is to know about succeeding at a hackathon. And, if you can't make it, videos will be posted on the Pickhacks Youtube channel afterwards! We hope to see you there!</strong></p>
+                <p><a href="https://www.replit.com/" target = "_blank">Repl.it</a> is an online IDE that allows you to collaborate in real time with other members of a team and allows you to host websites instantly </p>
               </div>
-              <br>  
-              <div class="faq-question">
-                <h1>Theme</h1>
-                <div class="faq-short-answer">
-                  <h1>Entertainment</h1>
-                </div>
-              </div>
-              <div class="faq-long-answer">
-                <p>This year, our theme is "festival", a homage to the entertainment industry and the communities behind it.</p>
-              </div>
-              <br>  
-              <div class="faq-question">
-                <h1>Swag</h1>
-                <div class="faq-short-answer">
-                  <h1>How to get</h1>
-                </div>
-              </div>
-              <div class="faq-long-answer">
-                <p>Right after you RSVP and are accepted into the event, you can fill out a shipping form. Swag will then be sent out before the event in accordance with your responses, so you can rep the gear while you're hacking away!</p>
-              </div>
-                            <br>  
-
-              <div class="faq-question">
-                <h1>Other</h1>  
-                <div class="faq-short-answer">
-                  <h1>Ask Us</h1>
-                </div>
-              </div>
-              <div class="faq-long-answer">
-                <p>If you have any other questions that are not listed here, feel free to reach out to us at pickhacks@mst.edu or on our social media!</p>
-              </div>
-            </div>
+              
+            
           </div>
-        </div>
-      
+          </div>
+           </div>
+      </div>
+      <br>
+          <div class="faq-info">
+            <h1 class="section-title">Design</h1>
+            <div class="faq-questions">
+              <div class="faq-question">
+                <h1>Figma</h1>
+                <div class="faq-short-answer">
+                  <h1></h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p><a href="https://www.figma.com/blog/" target = "_blank">Figma</a> is a high resolution prototyping tool</p>
+              </div>
+<br>       
+       <div class="faq-question">
+                <h1>HTMLColorCodes</h1>
+                <div class="faq-short-answer">
+                  <h1></h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p> <a href="https://htmlcolorcodes.com/" target = "_blank">HTMLColorCodes</a> tells you the HTML Color Code for literally every color under the sun</p>
+    
+              </div>
+              <br>  
+              <div class="faq-question">
+                <h1>Google Fonts</h1>
+                <div class="faq-short-answer">
+                  <h1></h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p><a href="https://fonts.google.com/" target = "_blank">Google Fonts</a> is a font API that lets you load good fonts into web projects</p>
+              </div>
+              <br>  
+              <div class="faq-question">
+                <h1>Undraw</h1>
+                <div class="faq-short-answer">
+                  <h1></h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p><a href="https://undraw.co/" target = "_blank">Undraw</a> has free graphics for websites and projects</p>
+              </div>
+              
+            
+          </div>
+          </div>
+      <br>
+      <br>
+       <br>
+      <br>
+          <div class="faq-info">
+            <h1 class="section-title">Game Development</h1>
+            <div class="faq-questions">
+              <div class="faq-question">
+                <h1>Brackey's</h1>
+                <div class="faq-short-answer">
+                  <h1>C#</h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p><a href = "https://www.youtube.com/user/Brackeys" target = "_blank">Brackey's - Game Development YouTube</a> is a youtube channel with tutorials on games in c#</p>
+              </div>
+<br>       
+       <div class="faq-question">
+                <h1>Real Python</h1>
+                <div class="faq-short-answer">
+                  <h1>Pygame</h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p> <a href="https://realpython.com/pygame-a-primer/" target = "_blank">Real Python - Pygame</a> is a fast pygame tutorial</p>
+              </div>
+              <br>  
+              <div class="faq-question">
+                <h1>Tech with Tim</h1>
+                <div class="faq-short-answer">
+                  <h1>Pygame</h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p><a href="https://www.youtube.com/watch?v=i6xMBig-pP4&list=PLzMcBGfZo4-lp3jAExUCewBfMx3UZFkh5&index=1" target = "_blank">Tech with Tim - Pygame Tutorial</a> is a video form pygame tutorial </p>
+              </div>
+              
+              
+            
+          </div>
+
+           <br>
+      <br>
+       <br>
+      <br>
+          <div class="faq-info">
+            <h1 class="section-title">Mobile Development</h1>
+            <div class="faq-questions">
+              <div class="faq-question">
+                <h1>Documentation</h1>
+                <div class="faq-short-answer">
+                  <h1>Android App Dev</h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                 <p> <a href="https://developer.android.com/docs" target = "_blank">Documentation - Android App Development</a> is documentation that is .. actually pretty easy to read and thorough</p>
+              </div>
+<br>       
+       <div class="faq-question">
+                <h1>CodePath</h1>
+                <div class="faq-short-answer">
+                  <h1>Android App Dev</h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p> <a href="https://developer.android.com/docs" target = "_blank">Documentation - Android App Development</a> is documentation that is .. actually pretty easy to read and thorough</p>
+     
+            </div>
+              <br>  
+              <div class="faq-question">
+                <h1>CodePath</h1>
+                <div class="faq-short-answer">
+                  <h1>iOS App Dev</h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p><a href="https://www.youtube.com/watch?v=i6xMBig-pP4&list=PLzMcBGfZo4-lp3jAExUCewBfMx3UZFkh5&index=1" target = "_blank">Tech with Tim - Pygame Tutorial</a> is a video form pygame tutorial </p>
+              </div>
+          <br>
+             <div class="faq-question">
+                <h1>Hacking with Swift</h1>
+                <div class="faq-short-answer">
+                  <h1>iOS App Dev</h1>
+                </div>
+              </div>
+              <div class="faq-long-answer">
+                <p><a href="https://www.youtube.com/watch?v=i6xMBig-pP4&list=PLzMcBGfZo4-lp3jAExUCewBfMx3UZFkh5&index=1" target = "_blank">Tech with Tim - Pygame Tutorial</a> is a video form pygame tutorial </p>
+              </div>
+              
+              
+            
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="js/scrollie.js"></script>
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script> -->
+    <script src="js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158761634-1%22%3E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-158761634-1');
+    </script>
   </body>
 </html>
